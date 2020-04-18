@@ -1,0 +1,8 @@
+[Unit]
+Description=Minecraft Server startup
+
+[Service]
+ExecStart=/data/docker-minecraft/systemctl-script/minecraftserver.sh
+
+[Install]
+WantedBy=multi-user.target
