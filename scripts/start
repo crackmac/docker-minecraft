@@ -9,8 +9,9 @@
 
 if [ ! -f /data/minecraft_server.jar ]
 then
-    # download the v 1.15.2 server.jar as per https://www.minecraft.net/en-us/download/server/
-    curl "https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar" -o /data/minecraft_server.jar
+    # download the v 1.16 server.jar as per https://www.minecraft.net/en-us/download/server/
+    # https://launcher.mojang.com/v1/objects/7361a24df069a06748844cc7483c35d4abd2d80c/server.jar
+    curl "https://launcher.mojang.com/v1/objects/7361a24df069a06748844cc7483c35d4abd2d80c/server.jar" -o /data/minecraft_server.jar
 fi
 
 if [ ! -f /data/eula.txt ]
